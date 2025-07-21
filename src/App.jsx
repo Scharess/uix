@@ -1,15 +1,9 @@
+import { Outlet } from 'react-router-dom'
 
-
-function App() {
-
+export default function Appage() {
   return (
-    <>
-
-  <div className='bg-blue-500'>
-    he bro /
-    </div>        
-    </>
+    <div>
+      <Outlet />
+    </div>
   )
 }
-
-export default App
