@@ -5,8 +5,8 @@ function Login() {
 
   return (
    <div className="flex flex-row ">
-   <div className="w-[50%] h-screen p-24  ">
-     <p className="flex flex-row gap-2 font-bold text-black"> <div className="w-5 h-5 bg-purple-500 rounded-full"></div>Finnger</p>
+   <div className="w-[50%] h-screen p-24 ">
+     <p className="flex items-center  flex-row gap-2 font-bold text-black"> <div className="w-5 h-5 bg-purple-500 rounded-full"></div>Finnger</p>
    <div className="mt-20">
      <h1 className="mt-5 text-5xl font-bold">Holla,</h1>
     <h1 className="mt-3 text-5xl font-bold ">Welcome Back</h1>
@@ -29,7 +29,7 @@ function Login() {
       </Link>
     </form>
    </div>
-   <p className="mt-20 text-gray-500">Don't have an account? <span className="font-bold text-purple-600">Sign up</span></p>
+   <p className="mt-20  text-gray-500">Don't have an account? <span className="font-bold text-purple-600">Sign up</span></p>
    </div>
    <div className="w-[50%] h-screen  flex items-center justify-center">
      <img
